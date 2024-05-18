@@ -1,0 +1,58 @@
+{  
+  padding: 0;  
+  margin: 0;  
+   color: #404E67;  
+    background: #F5F7FA;  
+    font-family: 'Open Sans', sans-serif;  
+}  
+.full-landing-image  
+{  
+  width: 150vh;  
+  height: 150vh;  
+  background:   
+    linear-gradient(  
+      rgba(0, 0, 0, 0.6),  
+      rgba(0, 0, 0, 0.6) ),url("https://i.ibb.co/9qvW0Gp/425462121-972025287630027-4017016351049220503-n-cleanup-no-words.png") no-repeat center; 
+  position: relative;  
+  float: left;  
+}  
+.mid h2 {  
+  font-family: 'Roboto', sans-serif;  
+  font-weight: 800;  
+  color: white;  
+  text-transform: uppercase;  
+  margin: 0;  
+  position: absolute;  
+  top: 60%;  
+  left: 60%;  
+  font-size: 2rem;  
+  transform: translate(-50%, -50%);  
+}  
+.mid h1 {  
+  font-family: 'Roboto', sans-serif;  
+  font-weight: 900;  
+  color: white;  
+  text-transform: uppercase;  
+  margin: 0;  
+  position: absolute;  
+  top: 40%;  
+  left: 60%;  
+  font-size: 2rem;  
+  transform: translate(-50%, -50%);  
+}  
+.glow {  
+  font-size: 80px;  
+  color: #fff;  
+  text-align: center;  
+  animation: glow 1s ease-in-out infinite alternate;  
+}  
+  
+@-webkit-keyframes glow {  
+  from {  
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;  
+  }  
+    
+  to {  
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;  
+  }  
+}
